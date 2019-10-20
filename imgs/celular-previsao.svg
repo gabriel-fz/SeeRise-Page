@@ -15,7 +15,7 @@
    version="1.1"
    id="svg4988"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="celular.svg">
+   sodipodi:docname="celular-previsao.svg">
   <defs
      id="defs4982" />
   <sodipodi:namedview
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="149.02066"
-     inkscape:cy="39.828698"
+     inkscape:zoom="0.9899495"
+     inkscape:cx="94.962174"
+     inkscape:cy="149.63437"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -41,13 +41,7 @@
      inkscape:window-y="28"
      inkscape:window-maximized="1"
      showguides="true"
-     inkscape:guide-bbox="true">
-    <sodipodi:guide
-       position="-21.381562,32.072343"
-       orientation="1,0"
-       id="guide857"
-       inkscape:locked="false" />
-  </sodipodi:namedview>
+     inkscape:guide-bbox="true" />
   <metadata
      id="metadata4985">
     <rdf:RDF>
@@ -56,7 +50,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -182,5 +176,16 @@
        width="47.3825"
        id="rect867"
        style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08354104;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="15.432042"
+       y="137.56387"
+       id="text961"><tspan
+         sodipodi:role="line"
+         id="tspan959"
+         x="15.432042"
+         y="137.56387"
+         style="fill:#ff0000;stroke-width:0.26458332">P</tspan></text>
   </g>
 </svg>

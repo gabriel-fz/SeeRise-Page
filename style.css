@@ -98,3 +98,39 @@ nav {
   align-items: center;
   flex-direction: column;
 }
+
+.conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Animação */
+
+[data-anime] {
+  opacity: 0;
+  transition: 0.5s;
+}
+
+[data-anime="left"] {
+  transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime="right"] {
+  transform: translate3d(50px, 0, 0);
+}
+
+[data-anime="button"] {
+  transform: translate3d(0, 50px, 0);
+}
+
+[data-anime="logo"] {
+  transform: scale(0);
+  transition: 3s;
+}
+
+[data-anime].animate {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+  transform: scale(1);
+}
