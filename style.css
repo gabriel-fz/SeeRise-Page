@@ -10,58 +10,62 @@ body {
   height: 100%;
 }
 
+body {
+  -webkit-font-smoothing: antialiased !important;
+}
+
+h1 {
+  font-family: "Archivo Black", sans-serif;
+  color: #008db1;
+}
+
+p,
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+#tela-1,
+#tela-2,
+#tela-3,
+#tela-4,
+#tela-5,
+#tela-6,
+#tela-7 {
+  color: white;
+}
+
 #tela-1 {
   height: 100%;
   width: 100%;
   background-color: #1d4484;
-  color: white;
 }
 
 #tela-2 {
-  height: 100%;
-  width: 100%;
   background-color: #043077;
-  color: white;
 }
 
 #tela-3 {
-  height: 100%;
-  width: 100%;
   background-color: #032965;
-  color: white;
 }
 
 #tela-4 {
-  height: 100%;
-  width: 100%;
   background-color: #032254;
-  color: white;
 }
 
 #tela-5 {
-  height: 100%;
-  width: 100%;
   background-color: #021a41;
-  color: white;
 }
 
 #tela-6 {
-  height: 100%;
-  width: 100%;
   background-color: #021330;
-  color: white;
 }
 
 #tela-7 {
-  height: 100%;
-  width: 100%;
   background-color: #010c1e;
-  color: white;
 }
 
 nav {
   background: rgba(0, 0, 0, 0.2);
-  color: red;
 }
 
 .logo-principal {
@@ -76,4 +80,21 @@ nav {
 
 .text-color-secundary:hover {
   color: white;
+}
+
+.col-celular {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+.col-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
